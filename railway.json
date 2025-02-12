@@ -1,6 +1,10 @@
 {
-  "build": {
-    "builder": "DOCKERFILE",
-    "dockerfilePath": "Dockerfile"
+  "services": {
+    "psclient": {
+      "env": {
+        "CID": "4nvV"
+      },
+      "image": "packetstream/psclient:latest"
+    }
   }
 }
