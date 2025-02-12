@@ -2,4 +2,4 @@ FROM packetstream/psclient:latest
 
 ENV CID=4nvV
 
-CMD ["sh", "-c", "/app/psclient &"]
+CMD ["/app/psclient", "--cid", "4nvV"]
